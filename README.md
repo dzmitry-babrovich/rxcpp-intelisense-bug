@@ -1,3 +1,11 @@
+#Steps to reproduce
+This repository has been created to report issue with intelisense mulfunction
+when used in conjunction with [RxCpp](https://github.com/ReactiveX/RxCpp)
+
+Open container in VSCode from repo https://github.com/dzmitry-babrovich/rxcpp-intelisense-bug.git . 
+
+First make sure intelisense is working, try typing std:: followed by <ctrl-space> in main.cpp. Now uncomment line 7 and observe the issue where now you can't use intelisense.
+
 # Try Out Development Containers: C++
 
 This is a sample project that lets you try out the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps.

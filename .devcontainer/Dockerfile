@@ -36,5 +36,9 @@ RUN apt-get update \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
+#install RxCpp
+RUN git clone --recursive https://github.com/ReactiveX/RxCpp.git \
+    && cd RxCpp && mkdir build && cd build \
+    && cmake .. && make install  
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
