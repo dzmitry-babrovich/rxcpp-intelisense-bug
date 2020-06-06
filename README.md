@@ -1,8 +1,8 @@
-#Steps to reproduce
+# Steps to reproduce
 This repository has been created to report issue with intelisense mulfunction
 when used in conjunction with [RxCpp](https://github.com/ReactiveX/RxCpp)
 
-Open container in VSCode from repo https://github.com/dzmitry-babrovich/rxcpp-intelisense-bug.git . 
+Open container in VSCode from repo this repo.
 
 First make sure intelisense is working, try typing std:: followed by <ctrl-space> in main.cpp. Now uncomment line 7 and observe the issue where now you can't use intelisense.
 
